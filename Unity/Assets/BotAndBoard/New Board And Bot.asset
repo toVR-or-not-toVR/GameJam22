@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f795231843ba1419bfc13e28bb064e, type: 3}
+  m_Name: New Board And Bot
+  m_EditorClassIdentifier: 
+  boardTransform: {fileID: 7945393800369356068, guid: 6e4a71ff09b91774ea5e41b8131f7cdd,
+    type: 3}
+  BotTransform: {fileID: 7101860659422894843, guid: 7a5f51e31cb4257458600f417dfba2a7,
+    type: 3}
+  botSound: {fileID: 8300000, guid: 40e6a1ea3c3851b40bdb4db650435db4, type: 3}
+  imageSprite: {fileID: 21300000, guid: 3976049c30b654947af432d090f78337, type: 3}
