@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 9102264371154806528}
   - component: {fileID: 9113927829364630720}
   - component: {fileID: 9137656400350122280}
+  - component: {fileID: 5679516252475284167}
+  - component: {fileID: 51278256661856274}
   m_Layer: 0
   m_Name: SM_Prop_Food_Banana_01
   m_TagString: Untagged
@@ -96,3 +98,48 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 43982642088505604, guid: aa785cfb77b482b4b8eba621fd6c8b91, type: 2}
+--- !u!114 &5679516252475284167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9092759606650371738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd80a23c90c93fa4a868a972770086c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroySoundsShop:
+  - {fileID: 8300000, guid: ded4598ce5e0d5345b6f235358744716, type: 3}
+  - {fileID: 8300000, guid: 399278b8fed4edb4993ec88db11a0233, type: 3}
+  - {fileID: 8300000, guid: ebc9fd7878849bf4cba1bb6dda8ba092, type: 3}
+  - {fileID: 8300000, guid: 14b3da6db4669814b956bbc2c108b8ae, type: 3}
+  - {fileID: 8300000, guid: ab6d3f0391c46c34f9836ae7260089d1, type: 3}
+  - {fileID: 8300000, guid: ead05b5e701afd340985069365db05e6, type: 3}
+  FailSounds:
+  - {fileID: 8300000, guid: bcf54c01cdd5dcc4f90aaea90cd53dbb, type: 3}
+  - {fileID: 8300000, guid: b60ee3dc9826d9f41a75dee05c8ffb2e, type: 3}
+  - {fileID: 8300000, guid: c90b6c93862055b4a89fdbb4797e7c86, type: 3}
+  - {fileID: 8300000, guid: 3490ecc05c43c0c48a7525c3455c54c0, type: 3}
+  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff,
+    type: 3}
+  isGood: 1
+  stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
+  volumeSounds: 0.7
+--- !u!54 &51278256661856274
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9092759606650371738}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
