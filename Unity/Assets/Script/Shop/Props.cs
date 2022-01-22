@@ -14,10 +14,14 @@ public class Props : MonoBehaviour
 
     [SerializeField] float volumeSounds = 0.7f;
 
+    Level_Shop level_Shop;
+
+    [SerializeField] int score = 100;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        level_Shop = FindObjectOfType<Level_Shop>();
     }
 
     // Update is called once per frame
@@ -51,6 +55,7 @@ public class Props : MonoBehaviour
 
     void GoodFoodCached()
     {
+        level_Shop.IncreaseScore(score);
         PlayGoodFoodSound();
         GameObject particlesScene = Instantiate(parcitlesObg, transform.position, Quaternion.identity) as GameObject;
         Destroy(particlesScene, 0.1f);        
@@ -59,6 +64,7 @@ public class Props : MonoBehaviour
 
     void BadFoodCached()
     {
+        level_Shop.DecreaseScore(score);
         PlayBadFoodSound();
         Destroy(gameObject, 0.1f);
     }

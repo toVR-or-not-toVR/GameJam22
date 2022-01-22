@@ -21,6 +21,8 @@ namespace BNG {
 
         Grabber currentGrabber;
 
+        Level_Shop level_Shop;
+
         public override void OnGrab(Grabber grabber) {
             // Store grabber so we can use it if we need to vibrate the controller
             currentGrabber = grabber;
