@@ -25,7 +25,7 @@ public class ItemThrower : MonoBehaviour
         GameObject obj = CreateRandomItem(items, transform.position);
         Vector3 finishPosition = RandomFinishPosition(finishPoint, rangeX, rangeZ);
 
-        obj.GetComponent<Rigidbody>().velocity = BallisticVel(finishPosition, 45f);
+        obj.GetComponent<Rigidbody>().velocity =  BallisticVel(finishPosition, 30f);
     }
 
 
@@ -54,7 +54,7 @@ public class ItemThrower : MonoBehaviour
         float dist = dir.magnitude;
         float a = angle * Mathf.Deg2Rad;
         dir.y = dist * Mathf.Tan(a);
-        dist += h / Mathf.Tan(a);
+        dist +=  h / Mathf.Tan(a);
 
         float vel = Mathf.Sqrt(dist * Physics.gravity.magnitude / Mathf.Sin(2 * a));
         return vel * dir.normalized;

@@ -83,4 +83,4 @@ MonoBehaviour:
   finishPoint: {fileID: 3130238357977111167}
   rangeX: 2
   rangeZ: 2
-  cooldown: 0
+  cooldown: 0.8
