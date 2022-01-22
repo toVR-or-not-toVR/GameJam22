@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23066634320493646}
   - component: {fileID: 64513024531213596}
   - component: {fileID: 7530628903483162464}
+  - component: {fileID: 3180491748563438539}
   m_Layer: 0
   m_Name: SM_Prop_Apple_01 1
   m_TagString: Untagged
@@ -27,8 +28,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650316231183834}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,3 +114,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3180491748563438539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650316231183834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd80a23c90c93fa4a868a972770086c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroySound: {fileID: 8300000, guid: 14b3da6db4669814b956bbc2c108b8ae, type: 3}
+  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff,
+    type: 3}
+  isGood: 1
+  stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
+  volumeSounds: 0.7
