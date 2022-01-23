@@ -458,6 +458,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TABLO 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3840171541836664013, guid: da1dbb440a079b540b732a4958715e7c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866244721247462580, guid: da1dbb440a079b540b732a4958715e7c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4646466096518687991, guid: da1dbb440a079b540b732a4958715e7c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1dbb440a079b540b732a4958715e7c, type: 3}
 --- !u!1 &859942369 stripped

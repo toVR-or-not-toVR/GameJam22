@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1469599899357758764}
   - component: {fileID: 1441895927856248794}
   - component: {fileID: 1452235979653322394}
-  - component: {fileID: 1482382071769632676}
   - component: {fileID: 1864614824739435521}
   - component: {fileID: -3989409902086198927}
+  - component: {fileID: 4661694046505555008}
   m_Layer: 0
   m_Name: SM_Prop_Food_Donut_02
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1482382071769632676
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472945911822628034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43475261370894246, guid: c41e00cdc0a363f429044828b5f6a195, type: 2}
 --- !u!114 &1864614824739435521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +112,7 @@ MonoBehaviour:
   isGood: 0
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &-3989409902086198927
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -142,3 +129,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &4661694046505555008
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472945911822628034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.11049559
+  m_Center: {x: -0.000000007450581, y: 0.03538054, z: 0.00007311255}
