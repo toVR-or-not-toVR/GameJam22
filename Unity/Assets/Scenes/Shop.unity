@@ -520,6 +520,19 @@ MonoBehaviour:
   plane_2: {fileID: 859942369}
   boardAnimator: {fileID: 883399272}
   botAnimator: {fileID: 0}
+  generatorObj: {fileID: 2049429212}
+--- !u!114 &1298138033 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6425107844608227387, guid: d0bb8c90072b26d45be04c8e695c2733,
+    type: 3}
+  m_PrefabInstance: {fileID: 1624895072}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e3ae49206c6b54c8f82b4627f71603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1368382274
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,18 +603,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
         type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1298138033}
+    - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 902445426}
     - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroyButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: StartInstruction
       objectReference: {fileID: 0}
     - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CustomButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: LevelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959276075325111063, guid: d0bb8c90072b26d45be04c8e695c2733,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5115053051033024809, guid: d0bb8c90072b26d45be04c8e695c2733,
         type: 3}
@@ -779,6 +817,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9d038ff1f9a56c47ba0d6ab5f692209, type: 3}
+--- !u!1 &2049429212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3130238358298889916, guid: be3bef3c7fd6ce445bbc8f7249b7fe49,
+    type: 3}
+  m_PrefabInstance: {fileID: 3130238358850152256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2067446632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6904834616538775550, guid: d3d507db53867b7499f7454bf72e38f5,
