@@ -49,6 +49,8 @@ public class LevelController : MonoBehaviour
         yield return new WaitForSeconds(item_to_wait+1f);
         boardShop = FindObjectOfType<BoarShop>();
         boardShop.Animation();
+        botAnimator.SetTrigger("BotShot");
+        yield return new WaitForSeconds(4.5f);
         generatorObj.SetActive(true);
     }
 
