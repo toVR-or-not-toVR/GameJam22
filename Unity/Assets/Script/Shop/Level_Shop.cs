@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Level_Shop : MonoBehaviour
 {
     [SerializeField] int turbp_bust_score;
-    [SerializeField] int win_score = 200;
+    [SerializeField] int win_score = 1000;
 
     [SerializeField] GameObject winObj;
     [SerializeField] GameObject generator;
@@ -29,6 +29,7 @@ public class Level_Shop : MonoBehaviour
         if (score >= win_score)
         {
             winObj.SetActive(true);
+            text_score.text = "Win";
             generator.SetActive(false);
         }
     }
