@@ -15,6 +15,8 @@ public class NewMouth : MonoBehaviour
         indexTween = 0;
         doTweeen = GetComponent<DOTweenAnimation>();
         tweens = doTweeen.GetTweens();
+        Debug.Log(tweens);
+        Debug.Log(tweens[indexTween]);
     }
 
     // Update is called once per frame
