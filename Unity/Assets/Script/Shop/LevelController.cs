@@ -41,7 +41,7 @@ public class LevelController : MonoBehaviour
         //actovate Bot
         mainBot.SetActive(true);
         botShop = GetComponent<BotShop>();
-        StartCoroutine(StartThrowItems(botShop.audioToPlayStart.length));
+        StartCoroutine(StartThrowItems(8f));
     }
 
     IEnumerator StartThrowItems(float item_to_wait)
