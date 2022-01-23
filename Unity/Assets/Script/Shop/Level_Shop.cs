@@ -57,8 +57,8 @@ public class Level_Shop : MonoBehaviour
         AudioSource.PlayClipAtPoint(turboAudio, Camera.main.transform.position);
         yield return new WaitForSeconds(0.5f);
         turboMode.SetActive(true);
-        itemThrowerTurbo.StartAgain();
-        yield return new WaitForSeconds(2f);
+        //itemThrowerTurbo.StartAgain();
+        yield return new WaitForSeconds(5f);
         turboMode.SetActive(false);
         generator.SetActive(true);
         itemThrower.StartAgain();
