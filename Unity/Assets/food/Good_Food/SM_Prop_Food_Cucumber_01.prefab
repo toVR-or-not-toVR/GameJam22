@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7645950566752852443}
   - component: {fileID: 7669059283048440223}
   - component: {fileID: 7657975998951259665}
-  - component: {fileID: 7705835265497896311}
   - component: {fileID: 1014493073441082273}
   - component: {fileID: 1216269573732309521}
+  - component: {fileID: -4855220716081004458}
   m_Layer: 0
   m_Name: SM_Prop_Food_Cucumber_01
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7705835265497896311
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7642772302251629371}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43502829518244146, guid: 846eab5fae2c9b646899b39055f57739, type: 2}
 --- !u!114 &1014493073441082273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +113,7 @@ MonoBehaviour:
   isGood: 1
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &1216269573732309521
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-4855220716081004458
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642772302251629371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2273497
+  m_Center: {x: 0.000000033527613, y: 0.044036113, z: 0}

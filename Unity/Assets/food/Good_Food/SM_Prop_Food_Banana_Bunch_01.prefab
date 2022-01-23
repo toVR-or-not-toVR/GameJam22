@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6631298921928407943}
   - component: {fileID: 6661332066037379897}
   - component: {fileID: 6655504936224026547}
-  - component: {fileID: 6696850372524714395}
   - component: {fileID: 947776066944453120}
   - component: {fileID: 8867586814411141241}
+  - component: {fileID: -3724934689094586424}
   m_Layer: 0
   m_Name: SM_Prop_Food_Banana_Bunch_01
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6696850372524714395
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6633179345916407703}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43414174053090644, guid: 67f7f81548aa34c449420647c8380b4c, type: 2}
 --- !u!114 &947776066944453120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +113,7 @@ MonoBehaviour:
   isGood: 1
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &8867586814411141241
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-3724934689094586424
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633179345916407703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.19715267
+  m_Center: {x: 0, y: 0.082240455, z: 0}

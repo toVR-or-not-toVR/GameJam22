@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1632727061816332160}
   - component: {fileID: 1647822607786656132}
   - component: {fileID: 1654044283537825442}
-  - component: {fileID: 1603411512209278900}
   - component: {fileID: -2642083372961233821}
   - component: {fileID: -5602179338933441186}
+  - component: {fileID: 7179111493354004881}
   m_Layer: 0
   m_Name: SM_Prop_Food_Watermelon_Slice_01
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1603411512209278900
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631048719778429530}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43021845636543040, guid: ce0b0077128a25745b502c52404f4ae0, type: 2}
 --- !u!114 &-2642083372961233821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +113,7 @@ MonoBehaviour:
   isGood: 1
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &-5602179338933441186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &7179111493354004881
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631048719778429530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.15044907
+  m_Center: {x: -0.000000007450581, y: 0.07529342, z: -0.00040778331}

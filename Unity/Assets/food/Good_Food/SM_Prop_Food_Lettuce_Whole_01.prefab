@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4337817626270646416}
   - component: {fileID: 4349319918492054906}
   - component: {fileID: 4355549821530598604}
-  - component: {fileID: 4379134049387137934}
   - component: {fileID: 423413351314286252}
   - component: {fileID: 2128470073974460595}
+  - component: {fileID: -6066104564781232699}
   m_Layer: 0
   m_Name: SM_Prop_Food_Lettuce_Whole_01
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4379134049387137934
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4332520878161609882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43494869527036466, guid: f50119dffddb39c4c8a675fb67720342, type: 2}
 --- !u!114 &423413351314286252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +113,7 @@ MonoBehaviour:
   isGood: 1
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &2128470073974460595
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-6066104564781232699
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4332520878161609882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12755218
+  m_Center: {x: -0.000000074505806, y: 0.08523512, z: 0}

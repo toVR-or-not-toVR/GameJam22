@@ -14,6 +14,10 @@ public class LevelController : MonoBehaviour
     [SerializeField] GameObject plane_2;
     [SerializeField] Animator boardAnimator;
     [SerializeField] Animator botAnimator;
+    BotShop botShop;
+    BoarShop boardShop;
+    [SerializeField] GameObject generatorObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +40,17 @@ public class LevelController : MonoBehaviour
 
         //actovate Bot
         mainBot.SetActive(true);
+        botShop = GetComponent<BotShop>();
+        StartCoroutine(StartThrowItems(8f));
     }
+
+    IEnumerator StartThrowItems(float item_to_wait)
+    {
+        yield return new WaitForSeconds(item_to_wait+1f);
+        boardShop = FindObjectOfType<BoarShop>();
+        boardShop.Animation();
+        generatorObj.SetActive(true);
+    }
+
+
 }

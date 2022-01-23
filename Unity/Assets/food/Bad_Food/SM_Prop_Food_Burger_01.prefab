@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3439174315635793297}
   - component: {fileID: 3441475887153257407}
   - component: {fileID: 3451993780546953579}
-  - component: {fileID: 3409560404894949375}
   - component: {fileID: -5428108072004186053}
   - component: {fileID: 2844926348710856023}
+  - component: {fileID: -5111356487565190955}
   m_Layer: 0
   m_Name: SM_Prop_Food_Burger_01
   m_TagString: Untagged
@@ -85,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3409560404894949375
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3438192782030258013}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43673138994179718, guid: c7ffc390c79f89d48b8bfcccaa01155e, type: 2}
 --- !u!114 &-5428108072004186053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +113,7 @@ MonoBehaviour:
   isGood: 0
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &2844926348710856023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-5111356487565190955
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438192782030258013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.106852554
+  m_Center: {x: 0, y: 0.07802993, z: 0.000000007450581}

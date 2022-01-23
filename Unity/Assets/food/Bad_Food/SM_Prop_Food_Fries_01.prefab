@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4668368649884743090}
   - component: {fileID: 4661445400358698120}
   - component: {fileID: 4653473931310169816}
-  - component: {fileID: 4621798538033552888}
   - component: {fileID: 7034297394502346348}
   - component: {fileID: 2627437157811789156}
+  - component: {fileID: 2988690631495943471}
   m_Layer: 0
   m_Name: SM_Prop_Food_Fries_01
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4621798538033552888
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4666479753832684190}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43058528248739928, guid: aa615afdd529fed4a8bcb628b03b8305, type: 2}
 --- !u!114 &7034297394502346348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +112,7 @@ MonoBehaviour:
   isGood: 0
   stain: {fileID: 8703537819695168246, guid: eddec82987a3dd34a9b7a3fb2e4629c0, type: 3}
   volumeSounds: 0.7
+  score: 100
 --- !u!54 &2627437157811789156
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -142,3 +129,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &2988690631495943471
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4666479753832684190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.11215492
+  m_Center: {x: -0.0020691864, y: 0.11215492, z: 0.0007605776}
