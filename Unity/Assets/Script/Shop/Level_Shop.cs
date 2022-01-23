@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class Level_Shop : MonoBehaviour
 {
+
+
+
+    private bool isFirst;
     [SerializeField] int turbo_bust_score = 1000;
     [SerializeField] int win_score = 3000;
 
@@ -22,6 +26,7 @@ public class Level_Shop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isFirst = true;
         score = 0;
         text_score.text = score.ToString();
     }
@@ -40,6 +45,7 @@ public class Level_Shop : MonoBehaviour
         }
         else if (score == turbo_bust_score || score == (turbo_bust_score + 1000))
         {
+
             StartCoroutine(StartTurboBust());
         }
     }
@@ -57,7 +63,16 @@ public class Level_Shop : MonoBehaviour
         AudioSource.PlayClipAtPoint(turboAudio, Camera.main.transform.position);
         yield return new WaitForSeconds(0.5f);
         turboMode.SetActive(true);
-        //itemThrowerTurbo.StartAgain();
+
+        if (isFirst)
+        {
+            isFirst = false;
+
+        }
+        else if (!isFirst)
+        {
+            itemThrowerTurbo.StartAgain();
+        }
         yield return new WaitForSeconds(5f);
         turboMode.SetActive(false);
         generator.SetActive(true);
