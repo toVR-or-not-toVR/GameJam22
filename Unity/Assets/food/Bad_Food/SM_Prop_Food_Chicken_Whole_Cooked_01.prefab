@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6480389681779660203
 Transform:
   m_ObjectHideFlags: 0
@@ -97,17 +97,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroySoundsShop:
-  - {fileID: 8300000, guid: 0f78f76b999fd764ea4b2002b922bdbe, type: 3}
-  - {fileID: 8300000, guid: 8934f95dab5908e418fee648b5c4c10a, type: 3}
-  - {fileID: 8300000, guid: be04fd277cbbb7d45ad8baaff6c26f0d, type: 3}
-  - {fileID: 8300000, guid: 8eece1593faa9164ab724ebbff23b402, type: 3}
-  - {fileID: 8300000, guid: 423b0d18174373a47a05d8fb8e5e866b, type: 3}
+  - {fileID: 8300000, guid: 33345edc35ea1044aaf6675154d06d76, type: 3}
+  - {fileID: 8300000, guid: 610eed66189c3a747bcfbf33c97ec35c, type: 3}
+  - {fileID: 8300000, guid: 9634819c52b16b440b6ccaa08dafa1a5, type: 3}
   FailSounds:
   - {fileID: 8300000, guid: bcf54c01cdd5dcc4f90aaea90cd53dbb, type: 3}
   - {fileID: 8300000, guid: b60ee3dc9826d9f41a75dee05c8ffb2e, type: 3}
   - {fileID: 8300000, guid: c90b6c93862055b4a89fdbb4797e7c86, type: 3}
   - {fileID: 8300000, guid: 3490ecc05c43c0c48a7525c3455c54c0, type: 3}
-  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff, type: 3}
+  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff,
+    type: 3}
   isGood: 0
   stain: {fileID: 5675749712976430873, guid: 02c75265146127d478806359979b8db9, type: 3}
   volumeSounds: 0.7
