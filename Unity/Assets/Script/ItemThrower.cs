@@ -11,7 +11,12 @@ public class ItemThrower : MonoBehaviour
     [SerializeField] private float cooldown;
 
 
-    IEnumerator Start()
+    void Start()
+    {
+        StartCoroutine(StartTrhow());
+    }
+
+    IEnumerator StartTrhow()
     {
         while (true)
         {
@@ -58,5 +63,10 @@ public class ItemThrower : MonoBehaviour
 
         float vel = Mathf.Sqrt(dist * Physics.gravity.magnitude / Mathf.Sin(2 * a));
         return vel * dir.normalized;
+    }
+
+    public void StartAgain()
+    {
+        StartCoroutine(StartTrhow());
     }
 }
