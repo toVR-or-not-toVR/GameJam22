@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1595661038293229193}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 193790530156416060}
   - component: {fileID: 193790530156416059}
   - component: {fileID: 193790530156416058}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Circle.002_Circle.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}

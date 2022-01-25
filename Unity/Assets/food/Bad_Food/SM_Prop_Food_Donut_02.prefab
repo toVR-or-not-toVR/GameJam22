@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1864614824739435521}
   - component: {fileID: -3989409902086198927}
   - component: {fileID: 4661694046505555008}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Donut_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

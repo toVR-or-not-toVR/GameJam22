@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 423413351314286252}
   - component: {fileID: 2128470073974460595}
   - component: {fileID: -6066104564781232699}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Lettuce_Whole_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b60ee3dc9826d9f41a75dee05c8ffb2e, type: 3}
   - {fileID: 8300000, guid: c90b6c93862055b4a89fdbb4797e7c86, type: 3}
   - {fileID: 8300000, guid: 3490ecc05c43c0c48a7525c3455c54c0, type: 3}
-  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff, type: 3}
+  parcitlesObg: {fileID: 6085004865019380074, guid: 1961db086edc1394695c71afbe48c4ff,
+    type: 3}
   isGood: 1
   stain: {fileID: 7788996346730970339, guid: 19e7c862a51a49341a1ea216f769095f, type: 3}
   volumeSounds: 0.7

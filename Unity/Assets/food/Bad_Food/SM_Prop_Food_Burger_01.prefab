@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -5428108072004186053}
   - component: {fileID: 2844926348710856023}
   - component: {fileID: -5111356487565190955}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Burger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

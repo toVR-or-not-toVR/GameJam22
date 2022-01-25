@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7034297394502346348}
   - component: {fileID: 2627437157811789156}
   - component: {fileID: 2988690631495943471}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Fries_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

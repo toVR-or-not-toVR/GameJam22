@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
-    private bool isFirst;
+    
     [SerializeField] Texture[] texturesBoard;
     [SerializeField] GameObject boardObj;
     [SerializeField] GameObject botObj;
@@ -21,7 +21,6 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isFirst = true;
         boardRender = plane_2.GetComponent<Renderer>();
     }
 

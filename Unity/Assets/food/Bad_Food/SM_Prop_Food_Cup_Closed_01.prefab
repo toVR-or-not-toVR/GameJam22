@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4745981080339021456}
   - component: {fileID: -6994788749287775075}
   - component: {fileID: 579612634642866061}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Cup_Closed_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

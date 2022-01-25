@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1666770341269916421}
   - component: {fileID: -3520000806137991831}
   - component: {fileID: -705096139075859126}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: SM_Prop_Food_Fish_Whole_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
